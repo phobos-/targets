@@ -1311,6 +1311,16 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_2400_RX",
                 "prior_target_name": "HappyModel_AIO_2400_RX"
+            },
+            "pancake": {
+                "product_name": "HappyModel Pancake v2 2.4GHz RX+VTX",
+                "lua_name": "HM PANCAKE 2400",
+                "layout_file": "Generic 2400 True Diversity and VTx.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.3.2",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_2400_RX",
+                "prior_target_name": "HappyModel_Pancake_v2_2400_RX"
             }
         }
     },
